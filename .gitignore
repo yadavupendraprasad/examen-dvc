@@ -1,2 +1,13 @@
 /venv
 /clean_data.csv
+
+data/
+!src/data/
+models/
+*.pkl
+*.csv
+
+# allow tracking .dvc files inside models/
+!models/
+!models/*.dvc
+
